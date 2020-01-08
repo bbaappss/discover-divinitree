@@ -1,0 +1,55 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300; }
+
+p {
+  line-height: 1.5; }
+
+h1 {
+  letter-spacing: 2px; }
+
+.section {
+  padding: 24px; }
+
+.min-90vh {
+  min-height: 90vh; }
+
+.homepage-hero {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  position: relative; }
+  .homepage-hero h1, .homepage-hero h2 {
+    margin: 0; }
+  .homepage-hero h1 {
+    margin-top: 24px;
+    font-size: 28px; }
+  .homepage-hero h1 + h2 {
+    margin-top: 12px; }
+  .homepage-hero img.logo {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(328deg) brightness(104%) contrast(101%);
+    max-width: 150px; }
+  .homepage-hero .background {
+    height: 100%;
+    object-fit: cover;
+    object-position: center; }
+  .homepage-hero .overlay {
+    background: #956456;
+    height: 100%;
+    opacity: .6;
+    width: 100%; }
+  .homepage-hero .content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+  .homepage-hero .content > * {
+    text-shadow: 0px 0px 5px #000; }
+
+.accent {
+  color: green; }
+
+body {
+  background: grey; }
