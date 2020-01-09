@@ -1,0 +1,67 @@
+.first30 {
+    display: flex;
+    overflow: hidden;
+    min-height: 440px;
+
+    .overlay {
+        background: #c1845c;
+        height: 100%;
+        opacity: .6;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+    }
+
+    img {
+        position: absolute;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px 24px 16px;
+    }
+
+    span {
+        color: white;
+        display: block;
+        text-shadow: -2px 4px 5px #000;
+    }
+    .text {
+        span{
+            line-height: 1.2;
+        }
+        span:nth-child(1) {
+            font-size: 72px;
+            font-weight: 800;
+        }
+
+        span:nth-child(2) {
+            font-size: 32px;
+        }
+
+        span:nth-child(3) {
+            margin-top: -2px;
+            font-size: 72px;
+        }
+
+        span:nth-child(4) {
+            font-size: 28px;
+            margin-top: -4px;
+        }
+    }
+
+    .cta-and-fine-print {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start
+    }
+
+    .returning-student {
+        color: white;
+        font-size: 12px;
+        margin-top: 8px;
+    }
+
+}

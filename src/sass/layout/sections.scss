@@ -2,6 +2,15 @@
     padding: 24px;
 }
 
+.section > .section {
+    padding-left: 0;
+    padding-right: 0;
+
+    &:not(:first-child) {
+        padding-top: 0;
+    }
+}
+
 .min-90vh {
     min-height: 90vh;
 }
