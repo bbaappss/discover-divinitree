@@ -26,11 +26,11 @@
     span {
         color: white;
         display: block;
-        text-shadow: -2px 4px 5px #000;
+        text-shadow: -2px 2px 1px #222;
     }
     .text {
         span{
-            line-height: 1.2;
+            line-height: 1.05;
         }
         span:nth-child(1) {
             font-size: 72px;
@@ -39,6 +39,7 @@
 
         span:nth-child(2) {
             font-size: 32px;
+            margin-top: -8px;
         }
 
         span:nth-child(3) {
@@ -48,14 +49,12 @@
 
         span:nth-child(4) {
             font-size: 28px;
-            margin-top: -4px;
+            margin-top: -14px;
         }
-    }
 
-    .cta-and-fine-print {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start
+        .button {
+            margin-top: 24px;
+        }
     }
 
     .returning-student {
@@ -64,4 +63,74 @@
         margin-top: 8px;
     }
 
+}
+
+@media (min-width: 768px) {
+    .first30 {
+        min-height: 500px;
+        img {
+            top: -410px;
+        }
+        .content {
+            justify-content: center;
+            .fine-print {
+                margin-top: 24px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .first30 {
+        min-height: 700px;
+        img {
+            top: -500px;
+        }
+        .content {
+            padding-left: 100px;
+            .fine-print {
+                margin-top: 24px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    .first30 {
+        min-height: 700px;
+        img {
+            top: -770px;
+            width: 100%;
+        }
+
+        .text {
+            span{
+                line-height: 1.05;
+            }
+            span:nth-child(1) {
+                font-size: 8vw;
+                font-weight: 800;
+            }
+    
+            span:nth-child(2) {
+                font-size: 5vw;
+                margin-top: -8px;
+            }
+    
+            span:nth-child(3) {
+                font-size: 8vw;
+                margin-top: -2px;
+            }
+    
+            span:nth-child(4) {
+                font-size: 4vw;
+                margin-top: -14px;
+            }
+    
+        }
+        .button {
+            font-size: 1.8vw;
+        }
+
+    }
 }

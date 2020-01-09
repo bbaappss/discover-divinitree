@@ -11,6 +11,12 @@
     }
 }
 
-.min-90vh {
-    min-height: 90vh;
+.min-80vh {
+    min-height: 80vh;
+}
+
+@media (min-width: 1280px) {
+    .section {
+        padding: 10vw;
+    }
 }
