@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Once you're ready and set up with [npm](https://docs.npmjs.com/getting-started/installing-node), whip out your terminal and enter in the following goodies:
+Once you're ready and set up with [npm](https://nodejs.org/en/), whip out your terminal and enter in the following goodies:
 
 ```sh
 git clone https://github.com/bbaappss/discover-divinitree.git
