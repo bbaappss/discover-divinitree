@@ -1,6 +1,17 @@
-# Mimogear
+# Discover Divinitree
 
-> **Mimogear** is a complete web development boilerplate for developing static sites. Packed inside Mimogear you'll find [Gulp](https://gulpjs.com/), [Sass](https://sass-lang.com/), and [Pug](https://pugjs.org/api/getting-started.html) boilerplates to get you started. Newcomers and professionals alike will feel right at home with a solid start for any static site! Just run `gulp` and get building!
+## Getting Started
+
+Once you're ready and set up with [npm](https://docs.npmjs.com/getting-started/installing-node), whip out your terminal and enter in the following goodies:
+
+```sh
+git clone https://github.com/bbaappss/discover-divinitree.git
+cd discover-divinitree
+npm install gulp-cli -g
+npm install
+gulp
+```
+
 
 ## Highlights
 
@@ -47,17 +58,6 @@
   </tr>
 </table>
 
-## Getting Started
-
-Once you're ready and set up with [npm](https://docs.npmjs.com/getting-started/installing-node), whip out your terminal and enter in the following goodies:
-
-```sh
-git clone https://github.com/mimoduo/mimogear.git
-cd mimogear
-npm install gulp-cli -g
-npm install
-gulp
-```
 
 Your site will open up in a browser window automatically, gulp will begin watching your files, and Browsersync will automatically reload your changes. Check out /src/ to see your shiny new web development boilerplate!
 
@@ -69,14 +69,3 @@ Your site will open up in a browser window automatically, gulp will begin watchi
 * [Javascript](https://github.com/mimoduo/mimogear/tree/master/docs/javascript)
 * [CSS:Sass](https://github.com/mimoduo/mimogear/tree/master/docs/sass)
 * [HTML:Pug](https://github.com/mimoduo/mimogear/tree/master/docs/pug)
-
-## Share Your Sites Using Mimogear
-
-*If you have built a site with Mimogear and you want to show the world your sweet site, feel free to create a pull request and add it to the list below*:
-
-* [mimogear](http://mimoduo.github.io/mimogear/)
-* [Your Site!](#)
-
-# Thank You, Everyone!
-
-**I hope you enjoy developing with Mimogear as much as I have enjoyed building it!** *Please share it if you love it!* This static site generator wouldn't be possible without all the help of my friends. They've contributed to every single aspect of this without knowing it ^w^ Most notably [Nick Hall](https://github.com/nhall) for being the best mentor in the world!
