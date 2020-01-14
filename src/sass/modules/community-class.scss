@@ -1,5 +1,6 @@
 .community-class {
     padding: 24px;
+    padding-bottom: 0;
 }
 
 .community-class + .section {
@@ -9,7 +10,7 @@
 @media (min-width: 1280px) {
     .community-class {
         display: grid;
-        grid-template-columns: 800px 2fr;
+        grid-template-columns: 1fr 1fr;
         grid-gap: 2vw;
         align-items: center;
     }

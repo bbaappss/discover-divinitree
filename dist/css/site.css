@@ -63,7 +63,8 @@ h1, h2, h3 {
     padding: 10vw; } }
 
 .community-class {
-  padding: 24px; }
+  padding: 24px;
+  padding-bottom: 0; }
 
 .community-class + .section {
   padding-top: 0; }
@@ -71,7 +72,7 @@ h1, h2, h3 {
 @media (min-width: 1280px) {
   .community-class {
     display: grid;
-    grid-template-columns: 800px 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 2vw;
     align-items: center; } }
 
@@ -322,3 +323,18 @@ img {
   transform: rotate(35deg) translateX(-25px);
   margin: 47px auto 30px;
   display: block; }
+
+.p-b-0 {
+  padding-bottom: 0; }
+
+.p-t-0 {
+  padding-top: 0; }
+
+#healCode48container a {
+  display: none; }
+
+.vcard {
+  margin: 24px 0 96px 0; }
+
+img.rounded {
+  border-radius: 16px; }
