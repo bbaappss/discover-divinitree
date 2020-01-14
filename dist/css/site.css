@@ -44,6 +44,8 @@ h1, h2, h3 {
   h2 {
     font-size: 4vw; }
   p {
+    font-size: 2vw; }
+  a.big {
     font-size: 2vw; } }
 
 .section {
