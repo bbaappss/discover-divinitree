@@ -91,3 +91,14 @@
         width: 100%;
     }
 }
+
+.homepage-hero .bg-image-1 {
+    bottom: 0;
+    top: inherit;
+}
+
+@media (min-width: 1024px){ 
+    .homepage-hero .bg-image-1 {
+        bottom: inherit;
+    }
+}
